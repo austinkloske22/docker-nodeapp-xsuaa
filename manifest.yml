@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: nodeappfordocker
+  - name: nodeappwithxsuaa
     docker:
       image: <repo>/<appname>:<tag>
       username: <username>

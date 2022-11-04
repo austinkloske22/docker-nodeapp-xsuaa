@@ -2,10 +2,8 @@ FROM node:latest
 
 WORKDIR /usr/src/app
 
-RUN mkdir -p ./resources
-
-COPY resources ./resources
-COPY app.js .
+COPY default-env.json .
+COPY index.js .
 COPY package.json .
 COPY xs-app.json .
 

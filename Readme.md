@@ -15,7 +15,6 @@ docker list active containers: `docker container ls`
 
 run image: `docker run -p 8080:8080 docker-nodeapp-xsuaa`
 
-
 tag image: `docker tag docker-nodeapp-xsuaa austinkloskecontax/my_docker_image_v1`
 
 push image to docker hub: `docker push austinkloskecontax/my_docker_image_v1`
@@ -62,3 +61,5 @@ create a new default-env.json in the root directory. The structure should look l
 ## Running locally
 
 run image: `docker run -p 8080:8080 docker-nodeapp-xsuaa`
+
+run docker compose
